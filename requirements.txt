@@ -1,0 +1,6 @@
+# Standalone module verification, tested on Python 3.8.20.
+# This does not install the official Kaiwu runtime or environment.
+numpy==1.24.4
+torch==2.4.1
+# Python <3.11 only; original TOMLs are parsed without rewriting them.
+tomli>=2.0.1,<3; python_version < "3.11"

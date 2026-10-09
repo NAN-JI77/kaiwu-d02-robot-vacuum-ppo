@@ -1,0 +1,34 @@
+[
+  {
+    "source": "W10/episodes",
+    "sha256_sanitized_source": "eac8f123fb20d82e39e8b162a39d8717c802d747ad1933a6a6cb5ce32bff1ce5"
+  },
+  {
+    "source": "W10/learner",
+    "sha256_sanitized_source": "6b921ad483c78a51f18c6a8b4ac9ba711761ea4ab5a4e172703c61e4c65bdbbe"
+  },
+  {
+    "source": "W11/episodes",
+    "sha256_sanitized_source": "70e0916549768e0917358235f7b9b49b0792858d8a348eb5f3fe9df118f5f16e"
+  },
+  {
+    "source": "W11/learner",
+    "sha256_sanitized_source": "e6294ecf306537219b2ed53cbf3fbaae0783e4c7ef2ec6dc6a33ab295bde0343"
+  },
+  {
+    "source": "W12/episodes",
+    "sha256_sanitized_source": "e01befbc8f977f8df290a2d2f9d24d0366b943357494a6237882fb929f0bdbd0"
+  },
+  {
+    "source": "W12/learner",
+    "sha256_sanitized_source": "ee2a446eb1c5426310a354c43044ef2f85ebf04925f39fdf0a48f1096a75c20b"
+  },
+  {
+    "source": "W27/episodes",
+    "sha256_sanitized_source": "74ab17e55bfa4394a1c492dcf6fcdbf65576c75e0d95358fca033936ea9e014b"
+  },
+  {
+    "source": "W27/learner",
+    "sha256_sanitized_source": "650d8ace9f3278f1a0931b823ce9151b51828dd64b091274e487cfbaebb85584"
+  }
+]

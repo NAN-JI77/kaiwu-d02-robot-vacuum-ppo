@@ -1,0 +1,115 @@
+{
+  "purpose": "byte_identical_competition_source_integrity",
+  "files": [
+    {
+      "path": "__init__.py",
+      "bytes": 39,
+      "sha256": "2ca8482e00205eaee66c380451896bed126bf172ee43a633ddcb9a2ac440a59a"
+    },
+    {
+      "path": "agent_ppo/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_ppo/agent.py",
+      "bytes": 238082,
+      "sha256": "256339a04722d7e393521f8743b3509eff7f61b740a8fb00b993a036e0a9f8b0"
+    },
+    {
+      "path": "agent_ppo/algorithm/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_ppo/algorithm/algorithm.py",
+      "bytes": 7159,
+      "sha256": "6d77ad18cdedc8041f6e3644dad2032c670e9ece830a3ae9c29f6a68eb0cd43a"
+    },
+    {
+      "path": "agent_ppo/conf/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_ppo/conf/conf.py",
+      "bytes": 28721,
+      "sha256": "e8b380506c1b341dd6a378d38d13711fd4863d0f39bf8ec59ec7d317610c3862"
+    },
+    {
+      "path": "agent_ppo/conf/monitor_builder.py",
+      "bytes": 8645,
+      "sha256": "33d9b0a7879d21bcb9eab4f3405334d669b177029c099a043a60c7def9278c6e"
+    },
+    {
+      "path": "agent_ppo/conf/train_env_conf.toml",
+      "bytes": 1572,
+      "sha256": "6ec54c703721c738340f801dda600338af940a5ad27bb56f75ea5d119dab8e12"
+    },
+    {
+      "path": "agent_ppo/feature/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_ppo/feature/definition.py",
+      "bytes": 2520,
+      "sha256": "b692076a314461485786774f0fcfda91678a0bca459df44edbabe80d5c90fee9"
+    },
+    {
+      "path": "agent_ppo/feature/preprocessor.py",
+      "bytes": 62483,
+      "sha256": "099516fb8be9a152b6ca8b91ecd53a75513ea644fd7eca50a4636a9413f8df15"
+    },
+    {
+      "path": "agent_ppo/model/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_ppo/model/model.py",
+      "bytes": 8231,
+      "sha256": "6d28616099d53088f487c3fd84c4968a04fda2bf545dcbe5e5191a6824ea58e9"
+    },
+    {
+      "path": "agent_ppo/workflow/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_ppo/workflow/train_workflow.py",
+      "bytes": 59826,
+      "sha256": "71a592f8cec70e8449463233b031342397ee65d490ffb04e4946e5a3080d5fad"
+    },
+    {
+      "path": "conf/.gitignore",
+      "bytes": 9,
+      "sha256": "e3033586beb3406ed33427f01238322b2d121a7502ed6cc9279c9a23c3ae8eb0"
+    },
+    {
+      "path": "conf/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "conf/algo_conf_robot_vacuum.toml",
+      "bytes": 613,
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69"
+    },
+    {
+      "path": "conf/app_conf_robot_vacuum.toml",
+      "bytes": 213,
+      "sha256": "679e02bd4e80196c0244d0ee3f3596f23c37234a48175e17f5e5199b186fd8c6"
+    },
+    {
+      "path": "conf/configure_app.toml",
+      "bytes": 5256,
+      "sha256": "4e80d19f6eb4956881a14cdea69528d43f5ebaa40c58e73922d69677de1ddfa1"
+    },
+    {
+      "path": "train_test.py",
+      "bytes": 1048,
+      "sha256": "298586cad89a55e1a875b3654d8f8b22e6eac17440fbfd30e74bd4206fa29f76"
+    }
+  ]
+}

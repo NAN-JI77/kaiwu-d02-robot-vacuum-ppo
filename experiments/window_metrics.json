@@ -1,0 +1,304 @@
+[
+  {
+    "id": "W10",
+    "initial_checkpoint": "39171",
+    "environment": {
+      "battery_max": 200,
+      "charger_count": 4,
+      "max_step": 1000,
+      "robot_count": 4,
+      "map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "map_random": true
+    },
+    "environment_evidence": "historical configuration/archive cross-check; not all fields in every episode",
+    "type": "continuing_training_window_not_frozen_evaluation",
+    "official_evaluations_recovered": 0,
+    "episode_count": 53,
+    "result_counts": {
+      "LOW_CLEAN_SCORE_STEPS": 33,
+      "FAIL_BATTERY": 4,
+      "WIN": 16
+    },
+    "episode_metrics": {
+      "total_score": {
+        "n": 53,
+        "mean": 755.830189
+      },
+      "steps": {
+        "n": 53,
+        "mean": 939.622642
+      },
+      "repeat_ratio": {
+        "n": 53,
+        "mean": 0.173321
+      },
+      "clean_repeat_ratio": {
+        "n": 53,
+        "mean": 0.115906
+      },
+      "charge_step_ratio": {
+        "n": 53,
+        "mean": 0.159075
+      },
+      "rule_override_rate": {
+        "n": 53,
+        "mean": 0.155113
+      }
+    },
+    "learner_metrics": {
+      "approx_kl": {
+        "n": 19,
+        "mean": 0.001908
+      },
+      "clip_frac": {
+        "n": 19,
+        "mean": 0.135895
+      }
+    },
+    "evidence": [
+      "experiments/episodes.jsonl",
+      "experiments/learner_metrics.jsonl"
+    ],
+    "final_submission": "UNKNOWN",
+    "causal_improvement": "UNVERIFIED"
+  },
+  {
+    "id": "W11",
+    "initial_checkpoint": "39171",
+    "environment": {
+      "battery_max": 200,
+      "charger_count": 4,
+      "max_step": 1000,
+      "robot_count": 4,
+      "map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "map_random": true
+    },
+    "environment_evidence": "historical configuration/archive cross-check; not all fields in every episode",
+    "type": "continuing_training_window_not_frozen_evaluation",
+    "official_evaluations_recovered": 0,
+    "episode_count": 40,
+    "result_counts": {
+      "WIN": 11,
+      "FAIL_BATTERY_LOW_CLEAN": 3,
+      "LOW_CLEAN_SCORE_STEPS": 14,
+      "FAIL": 4,
+      "FAIL_BATTERY": 4,
+      "FAIL_LOW_CLEAN_SCORE": 4
+    },
+    "episode_metrics": {
+      "total_score": {
+        "n": 40,
+        "mean": 701.3
+      },
+      "steps": {
+        "n": 40,
+        "mean": 853.9
+      },
+      "repeat_ratio": {
+        "n": 40,
+        "mean": 0.1487
+      },
+      "clean_repeat_ratio": {
+        "n": 40,
+        "mean": 0.102275
+      },
+      "charge_step_ratio": {
+        "n": 40,
+        "mean": 0.1529
+      },
+      "rule_override_rate": {
+        "n": 40,
+        "mean": 0.136825
+      }
+    },
+    "learner_metrics": {
+      "approx_kl": {
+        "n": 12,
+        "mean": 0.001605
+      },
+      "clip_frac": {
+        "n": 12,
+        "mean": 0.113942
+      }
+    },
+    "evidence": [
+      "experiments/episodes.jsonl",
+      "experiments/learner_metrics.jsonl"
+    ],
+    "final_submission": "UNKNOWN",
+    "causal_improvement": "UNVERIFIED"
+  },
+  {
+    "id": "W12",
+    "initial_checkpoint": "39171",
+    "environment": {
+      "battery_max": 200,
+      "charger_count": 4,
+      "max_step": 1000,
+      "robot_count": 4,
+      "map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "map_random": true
+    },
+    "environment_evidence": "historical configuration/archive cross-check; not all fields in every episode",
+    "type": "continuing_training_window_not_frozen_evaluation",
+    "official_evaluations_recovered": 0,
+    "episode_count": 82,
+    "result_counts": {
+      "LOW_CLEAN_SCORE_STEPS": 50,
+      "WIN": 26,
+      "FAIL_BATTERY": 2,
+      "FAIL_BATTERY_LOW_CLEAN": 2,
+      "FAIL_LOW_CLEAN_SCORE": 1,
+      "FAIL": 1
+    },
+    "episode_metrics": {
+      "total_score": {
+        "n": 82,
+        "mean": 772.658537
+      },
+      "steps": {
+        "n": 82,
+        "mean": 960.365854
+      },
+      "repeat_ratio": {
+        "n": 82,
+        "mean": 0.176561
+      },
+      "clean_repeat_ratio": {
+        "n": 82,
+        "mean": 0.120573
+      },
+      "charge_step_ratio": {
+        "n": 82,
+        "mean": 0.14472
+      },
+      "rule_override_rate": {
+        "n": 82,
+        "mean": 0.138415
+      }
+    },
+    "learner_metrics": {
+      "approx_kl": {
+        "n": 30,
+        "mean": 0.001953
+      },
+      "clip_frac": {
+        "n": 30,
+        "mean": 0.136773
+      }
+    },
+    "evidence": [
+      "experiments/episodes.jsonl",
+      "experiments/learner_metrics.jsonl"
+    ],
+    "final_submission": "UNKNOWN",
+    "causal_improvement": "UNVERIFIED"
+  },
+  {
+    "id": "W27",
+    "initial_checkpoint": "73189",
+    "environment": {
+      "battery_max": 150,
+      "charger_count": 3,
+      "max_step": 1000,
+      "robot_count": 4,
+      "map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "map_random": true
+    },
+    "environment_evidence": "historical configuration/archive cross-check; not all fields in every episode",
+    "type": "continuing_training_window_not_frozen_evaluation",
+    "official_evaluations_recovered": 0,
+    "episode_count": 33,
+    "result_counts": {
+      "LOW_CLEAN_SCORE_STEPS": 8,
+      "FAIL_BATTERY": 18,
+      "FAIL_BATTERY_LOW_CLEAN": 7
+    },
+    "episode_metrics": {
+      "total_score": {
+        "n": 33,
+        "mean": 354.939394
+      },
+      "steps": {
+        "n": 33,
+        "mean": 492.575758
+      },
+      "repeat_ratio": {
+        "n": 33,
+        "mean": 0.199333
+      },
+      "clean_repeat_ratio": {
+        "n": 33,
+        "mean": 0.157758
+      },
+      "charge_step_ratio": {
+        "n": 33,
+        "mean": 0.240515
+      },
+      "rule_override_rate": {
+        "n": 33,
+        "mean": 0.180273
+      }
+    },
+    "learner_metrics": {
+      "approx_kl": {
+        "n": 18,
+        "mean": 0.002183
+      },
+      "clip_frac": {
+        "n": 18,
+        "mean": 0.166944
+      }
+    },
+    "evidence": [
+      "experiments/episodes.jsonl",
+      "experiments/learner_metrics.jsonl"
+    ],
+    "final_submission": "UNKNOWN",
+    "causal_improvement": "UNVERIFIED"
+  }
+]

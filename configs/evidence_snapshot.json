@@ -1,0 +1,33 @@
+{
+  "purpose": "documentation_snapshot_not_runtime_configuration",
+  "source_code_label": "202604282345",
+  "final_submission_checkpoint": null,
+  "current_preload_checkpoint": "73189",
+  "observation": {
+    "base": 73,
+    "local_shape_hwc": [7, 7, 12],
+    "global_shape_chw": [14, 16, 16],
+    "scalar": 32,
+    "total": 4277
+  },
+  "actions_dx_dz": [[1, 0], [1, -1], [0, -1], [-1, -1], [-1, 0], [-1, 1], [0, 1], [1, 1]],
+  "ppo": {
+    "gamma": 0.995,
+    "lambda": 0.97,
+    "learning_rate": 0.00003,
+    "clip": 0.1,
+    "value_coefficient": 0.7,
+    "entropy_start": 0.008,
+    "entropy_end": 0.0015,
+    "entropy_decay_learner_calls": 150000,
+    "gradient_clip_norm": 0.5
+  },
+  "current_environment": {
+    "map": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "map_random": true,
+    "robot_count": 4,
+    "charger_count": 3,
+    "max_step": 1000,
+    "battery_max": 150
+  }
+}
